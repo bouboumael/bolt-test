@@ -1,0 +1,29 @@
+# Optional config file for the theme.
+
+# Variables that are in this file, can be used in your twig template like {{ theme.foo }}
+
+# Template filenames. If you 're creating a theme for distribution, you can specify
+# the filenames of the templates here. The templates you will set in this config
+# file will override the ones in the global app/config/config.yml, so beware!
+# maintenance_template: maintenance_default.twig
+# homepage_template: index.twig
+# record_template: record.twig
+# listing_template: listing.twig
+# search_results_template: search.twig
+# notfound: notfound.twig
+# location for the embedded map
+location:
+    map_query: "3, rue Pierre Durand 45470 Rebréchiene"
+    address: |
+        Transvis-CTI
+        3, rue Pierre Durand
+        45470 Rebréchien
+    email: accueil@transvis.fr
+    phone: "0238527878"
+
+socials:
+    facebook: ~
+    twitter: ~
+    instagram: ~
+    linkedin: ~
+    youtube: ~
